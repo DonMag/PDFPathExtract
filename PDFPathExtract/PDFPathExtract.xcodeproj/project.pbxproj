@@ -13,10 +13,14 @@
 		FC6BD4882CE6443500A71251 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC6BD4862CE6443500A71251 /* Main.storyboard */; };
 		FC6BD48A2CE6443500A71251 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6BD4892CE6443500A71251 /* main.m */; };
 		FC6BD4932CE6448100A71251 /* Extractor.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6BD4922CE6448100A71251 /* Extractor.m */; };
-		FC6BD4952CE6470300A71251 /* AW109.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC6BD4942CE6470200A71251 /* AW109.pdf */; };
+		FC6BD4952CE6470300A71251 /* AW109_orig.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC6BD4942CE6470200A71251 /* AW109_orig.pdf */; };
 		FC6BD4972CE647E300A71251 /* AW109_fixed.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC6BD4962CE647E300A71251 /* AW109_fixed.pdf */; };
 		FC6BD4A22CE651A900A71251 /* CheckerBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6BD4A02CE651A800A71251 /* CheckerBoardView.m */; };
-		FC6BD4A42CE65DC600A71251 /* AC130.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC6BD4A32CE65DC600A71251 /* AC130.pdf */; };
+		FC6BD4A42CE65DC600A71251 /* AC130_orig.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC6BD4A32CE65DC600A71251 /* AC130_orig.pdf */; };
+		FC7F58A62CE6C64A00A026C0 /* airDoc3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC7F58A32CE6C64900A026C0 /* airDoc3.pdf */; };
+		FC7F58A72CE6C64A00A026C0 /* AC130decompressed.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC7F58A42CE6C64900A026C0 /* AC130decompressed.pdf */; };
+		FC7F58A82CE6C64A00A026C0 /* AW109red.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC7F58A52CE6C64A00A026C0 /* AW109red.pdf */; };
+		FC7F58BA2CE6CF5B00A026C0 /* AC130_fixed.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC7F58B92CE6CF5B00A026C0 /* AC130_fixed.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,11 +35,15 @@
 		FC6BD48B2CE6443500A71251 /* PDFPathExtract.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PDFPathExtract.entitlements; sourceTree = "<group>"; };
 		FC6BD4912CE6448100A71251 /* Extractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Extractor.h; sourceTree = "<group>"; };
 		FC6BD4922CE6448100A71251 /* Extractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Extractor.m; sourceTree = "<group>"; };
-		FC6BD4942CE6470200A71251 /* AW109.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AW109.pdf; sourceTree = "<group>"; };
+		FC6BD4942CE6470200A71251 /* AW109_orig.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AW109_orig.pdf; sourceTree = "<group>"; };
 		FC6BD4962CE647E300A71251 /* AW109_fixed.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AW109_fixed.pdf; sourceTree = "<group>"; };
 		FC6BD4A02CE651A800A71251 /* CheckerBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckerBoardView.m; sourceTree = "<group>"; };
 		FC6BD4A12CE651A800A71251 /* CheckerBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckerBoardView.h; sourceTree = "<group>"; };
-		FC6BD4A32CE65DC600A71251 /* AC130.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AC130.pdf; sourceTree = "<group>"; };
+		FC6BD4A32CE65DC600A71251 /* AC130_orig.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AC130_orig.pdf; sourceTree = "<group>"; };
+		FC7F58A32CE6C64900A026C0 /* airDoc3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = airDoc3.pdf; sourceTree = "<group>"; };
+		FC7F58A42CE6C64900A026C0 /* AC130decompressed.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AC130decompressed.pdf; sourceTree = "<group>"; };
+		FC7F58A52CE6C64A00A026C0 /* AW109red.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AW109red.pdf; sourceTree = "<group>"; };
+		FC7F58B92CE6CF5B00A026C0 /* AC130_fixed.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AC130_fixed.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +88,13 @@
 				FC6BD4862CE6443500A71251 /* Main.storyboard */,
 				FC6BD4892CE6443500A71251 /* main.m */,
 				FC6BD48B2CE6443500A71251 /* PDFPathExtract.entitlements */,
-				FC6BD4942CE6470200A71251 /* AW109.pdf */,
+				FC6BD4942CE6470200A71251 /* AW109_orig.pdf */,
 				FC6BD4962CE647E300A71251 /* AW109_fixed.pdf */,
-				FC6BD4A32CE65DC600A71251 /* AC130.pdf */,
+				FC7F58A52CE6C64A00A026C0 /* AW109red.pdf */,
+				FC6BD4A32CE65DC600A71251 /* AC130_orig.pdf */,
+				FC7F58B92CE6CF5B00A026C0 /* AC130_fixed.pdf */,
+				FC7F58A42CE6C64900A026C0 /* AC130decompressed.pdf */,
+				FC7F58A32CE6C64900A026C0 /* airDoc3.pdf */,
 			);
 			path = PDFPathExtract;
 			sourceTree = "<group>";
@@ -144,9 +156,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC7F58A62CE6C64A00A026C0 /* airDoc3.pdf in Resources */,
+				FC7F58A82CE6C64A00A026C0 /* AW109red.pdf in Resources */,
 				FC6BD4972CE647E300A71251 /* AW109_fixed.pdf in Resources */,
-				FC6BD4A42CE65DC600A71251 /* AC130.pdf in Resources */,
-				FC6BD4952CE6470300A71251 /* AW109.pdf in Resources */,
+				FC6BD4A42CE65DC600A71251 /* AC130_orig.pdf in Resources */,
+				FC7F58BA2CE6CF5B00A026C0 /* AC130_fixed.pdf in Resources */,
+				FC7F58A72CE6C64A00A026C0 /* AC130decompressed.pdf in Resources */,
+				FC6BD4952CE6470300A71251 /* AW109_orig.pdf in Resources */,
 				FC6BD4852CE6443500A71251 /* Assets.xcassets in Resources */,
 				FC6BD4882CE6443500A71251 /* Main.storyboard in Resources */,
 			);

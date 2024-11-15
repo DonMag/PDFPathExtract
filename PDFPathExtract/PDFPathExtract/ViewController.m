@@ -47,7 +47,7 @@
 	imgView = [NSImageView new];
 	imgView.wantsLayer = YES;
 	imgView.imageScaling = NSImageScaleProportionallyUpOrDown;
-	imgView.contentTintColor = NSColor.redColor;
+	imgView.contentTintColor = NSColor.blueColor;
 	
 	CAShapeLayer *c;
 	
@@ -55,15 +55,15 @@
 	pathOutlineView.wantsLayer = YES;
 	c = [CAShapeLayer new];
 	c.fillColor = NULL;
-	c.strokeColor = NSColor.redColor.CGColor;
+	c.strokeColor = NSColor.blueColor.CGColor;
 	c.lineWidth = 1.0;
 	[pathOutlineView.layer addSublayer:c];
 	
 	pathFilledView = [NSView new];
 	pathFilledView.wantsLayer = YES;
 	c = [CAShapeLayer new];
-	c.fillColor = NSColor.systemYellowColor.CGColor;
-	c.strokeColor = NSColor.redColor.CGColor;
+	c.fillColor = NSColor.cyanColor.CGColor;
+	c.strokeColor = NSColor.blueColor.CGColor;
 	c.lineWidth = 1.0;
 	[pathFilledView.layer addSublayer:c];
 	
@@ -75,7 +75,7 @@
 	stack.spacing = 20.0;
 	stack.distribution = NSStackViewDistributionFillEqually;
 	
-	CGFloat sz = 240.0;
+	CGFloat sz = 180.0;
 	
 	for (NSView *v in @[imgView, pathOutlineView, pathFilledView]) {
 		v.translatesAutoresizingMaskIntoConstraints = NO;
@@ -215,92 +215,3 @@
 
 @end
 
-/*
-@interface ViewController ()
-{
-	NSView *pdfPathView;
-}
-@end
-
-@implementation ViewController
-
-- (void)viewDidLoad {
-	[super viewDidLoad];
-
-	// checker board pattern so we can see transparency around the rendered path
-	CheckerBoardView *cv = [CheckerBoardView new];
-	cv.translatesAutoresizingMaskIntoConstraints = NO;
-	[self.view addSubview:cv];
-	
-	[NSLayoutConstraint activateConstraints:@[
-		[cv.topAnchor constraintEqualToAnchor:self.view.topAnchor constant:0.0],
-		[cv.leadingAnchor constraintEqualToAnchor:self.view.leadingAnchor constant:0.0],
-		[cv.trailingAnchor constraintEqualToAnchor:self.view.trailingAnchor constant:0.0],
-		[cv.bottomAnchor constraintEqualToAnchor:self.view.bottomAnchor constant:0.0],
-	]];
-
-	NSString *pdfName;
-	
-	pdfName = @"AW109";
-	pdfName = @"AW109_fixed";
-	pdfName = @"AC130";
-	
-	NSString *pdfPath = [[NSBundle mainBundle] pathForResource:pdfName ofType:@"pdf"];
-	NSURL *pdfUrl = [NSURL fileURLWithPath:pdfPath isDirectory:NO];
-	
-	// get the paths from the PDF
-	//	the PDF has only one page, so we're expecting only one path
-	NSArray<id> *vectorPaths = [Extractor extractVectorPathsFromPDF:pdfUrl];
-	CGPathRef pth = (CGPathRef)CFBridgingRetain([vectorPaths firstObject]);
-	
-	// translate path to 0,0
-	CGRect boundingBox = CGPathGetBoundingBox(pth);
-	CGAffineTransform translateToOrigin = CGAffineTransformMakeTranslation(-boundingBox.origin.x, -boundingBox.origin.y);
-	CGMutablePathRef translatedPath = CGPathCreateMutableCopyByTransformingPath(pth, &translateToOrigin);
-	
-	// get the new path bounding box
-	CGRect pathRect = CGPathGetBoundingBox(translatedPath);
-	
-	pdfPathView = [NSView new];
-	pdfPathView.wantsLayer = YES;
-	
-	// let's give the path view a border so we can see the framing
-	//	click anywhere in window to toggle the border on/off
-	pdfPathView.layer.borderColor = NSColor.blackColor.CGColor;
-	pdfPathView.layer.borderWidth = 1.0;
-
-	// create shape layer
-	CAShapeLayer *c = [CAShapeLayer new];
-	c.fillColor = NSColor.systemYellowColor.CGColor;
-	c.strokeColor = NSColor.redColor.CGColor;
-	c.lineWidth = 1.0;
-
-	// set the path
-	c.path = translatedPath;
-	
-	// add the layer to the path view
-	[pdfPathView.layer addSublayer:c];
-
-	pdfPathView.translatesAutoresizingMaskIntoConstraints = NO;
-	[self.view addSubview:pdfPathView];
-	
-	// set the size of the path view to the size of the path's bounding box
-	//	and center it
-	[NSLayoutConstraint activateConstraints:@[
-		[pdfPathView.widthAnchor constraintEqualToConstant:pathRect.size.width],
-		[pdfPathView.heightAnchor constraintEqualToConstant:pathRect.size.height],
-		[pdfPathView.centerXAnchor constraintEqualToAnchor:self.view.centerXAnchor],
-		[pdfPathView.centerYAnchor constraintEqualToAnchor:self.view.centerYAnchor],
-	]];
-
-	// clean up
-	CGPathRelease(translatedPath);
-	CGPathRelease(pth);
-}
-
-- (void)mouseUp:(NSEvent *)event {
-	pdfPathView.layer.borderWidth = pdfPathView.layer.borderWidth == 1.0 ? 0.0 : 1.0;
-}
-
-@end
-*/
