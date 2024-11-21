@@ -64,6 +64,8 @@
 	c = [CAShapeLayer new];
 	c.fillColor = NSColor.cyanColor.CGColor;
 	c.strokeColor = NSColor.blueColor.CGColor;
+	c.fillColor = NSColor.yellowColor.CGColor;
+	c.strokeColor = NSColor.redColor.CGColor;
 	c.lineWidth = 1.0;
 	[pathFilledView.layer addSublayer:c];
 	
@@ -76,6 +78,8 @@
 	stack.distribution = NSStackViewDistributionFillEqually;
 	
 	CGFloat sz = 180.0;
+	sz = 320.0;
+	//sz = 40.0;
 	
 	for (NSView *v in @[imgView, pathOutlineView, pathFilledView]) {
 		v.translatesAutoresizingMaskIntoConstraints = NO;
@@ -172,6 +176,18 @@
 	
 	CGPathRelease(cpth2);
 	CGPathRelease(pth);
+	
+//	NSImage *pdfImg = [Extractor imageFromPDFPage:pdfUrl pageNum:1 targetSize:pathFilledView.frame.size rotationRadians:M_PI * 0.25 withColor:NSColor.greenColor];
+//	
+//	// rect for generated airplane image
+//	//	put center AirplaneView at midpoint of line segment
+//	//CGRect r = CGRectMake(lineSeg.cp.x - (pdfImg.size.width * 0.5), lineSeg.cp.y - (pdfImg.size.height * 0.5), pdfImg.size.width, pdfImg.size.height);
+//	CGRect r = pathFilledView.bounds;
+//	CALayer *cl = [CALayer new];
+//	cl.frame = r;
+//	cl.contents = pdfImg;
+//	[pathFilledView.layer addSublayer:cl];
+
 }
 
 - (CGRect)scaleRect:(CGRect)sourceRect toFit:(CGRect)targetRect {

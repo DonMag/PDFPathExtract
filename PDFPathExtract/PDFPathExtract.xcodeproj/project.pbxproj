@@ -13,14 +13,41 @@
 		FC6BD4882CE6443500A71251 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC6BD4862CE6443500A71251 /* Main.storyboard */; };
 		FC6BD48A2CE6443500A71251 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6BD4892CE6443500A71251 /* main.m */; };
 		FC6BD4932CE6448100A71251 /* Extractor.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6BD4922CE6448100A71251 /* Extractor.m */; };
-		FC6BD4952CE6470300A71251 /* AW109_orig.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC6BD4942CE6470200A71251 /* AW109_orig.pdf */; };
+		FC6BD4952CE6470300A71251 /* user_AW109.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC6BD4942CE6470200A71251 /* user_AW109.pdf */; };
 		FC6BD4972CE647E300A71251 /* AW109_fixed.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC6BD4962CE647E300A71251 /* AW109_fixed.pdf */; };
 		FC6BD4A22CE651A900A71251 /* CheckerBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6BD4A02CE651A800A71251 /* CheckerBoardView.m */; };
-		FC6BD4A42CE65DC600A71251 /* AC130_orig.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC6BD4A32CE65DC600A71251 /* AC130_orig.pdf */; };
-		FC7F58A62CE6C64A00A026C0 /* airDoc3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC7F58A32CE6C64900A026C0 /* airDoc3.pdf */; };
+		FC6BD4A42CE65DC600A71251 /* notuser_AC130.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC6BD4A32CE65DC600A71251 /* notuser_AC130.pdf */; };
+		FC7F58A62CE6C64A00A026C0 /* oairDoc3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC7F58A32CE6C64900A026C0 /* oairDoc3.pdf */; };
 		FC7F58A72CE6C64A00A026C0 /* AC130decompressed.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC7F58A42CE6C64900A026C0 /* AC130decompressed.pdf */; };
 		FC7F58A82CE6C64A00A026C0 /* AW109red.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC7F58A52CE6C64A00A026C0 /* AW109red.pdf */; };
-		FC7F58BA2CE6CF5B00A026C0 /* AC130_fixed.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC7F58B92CE6CF5B00A026C0 /* AC130_fixed.pdf */; };
+		FC7F58BA2CE6CF5B00A026C0 /* DM_AC130.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC7F58B92CE6CF5B00A026C0 /* DM_AC130.pdf */; };
+		FC7F58BC2CE6D46600A026C0 /* airDoc3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC7F58BB2CE6D46600A026C0 /* airDoc3.pdf */; };
+		FC7F58BE2CE6D4A900A026C0 /* AW109_recompressed.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC7F58BD2CE6D4A900A026C0 /* AW109_recompressed.pdf */; };
+		FC7F58C12CE773FE00A026C0 /* ParseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7F58C02CE773FE00A026C0 /* ParseVC.m */; };
+		FC7F58C32CE7851900A026C0 /* user_AC130.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC7F58C22CE7851900A026C0 /* user_AC130.pdf */; };
+		FC7F58DB2CE79E6D00A026C0 /* DM_AW109.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC7F58DA2CE79E6D00A026C0 /* DM_AW109.pdf */; };
+		FC7F58DD2CE79EFD00A026C0 /* AW109_sp.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC7F58DC2CE79EFC00A026C0 /* AW109_sp.pdf */; };
+		FC7F58E52CE7A21E00A026C0 /* AW109_sp3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC7F58E42CE7A21E00A026C0 /* AW109_sp3.pdf */; };
+		FC7F58E92CE7F5A900A026C0 /* DM_1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC7F58E82CE7F5A900A026C0 /* DM_1.pdf */; };
+		FC7F58EB2CE7FB0200A026C0 /* DM_2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC7F58EA2CE7FB0200A026C0 /* DM_2.pdf */; };
+		FC7F58ED2CE7FE5A00A026C0 /* is_1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC7F58EC2CE7FE5A00A026C0 /* is_1.pdf */; };
+		FC7F58EF2CE8E0F900A026C0 /* AC130_cln1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC7F58EE2CE8E0F900A026C0 /* AC130_cln1.pdf */; };
+		FC7F58F12CE8E17100A026C0 /* AC130_cln2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC7F58F02CE8E17100A026C0 /* AC130_cln2.pdf */; };
+		FC7F58F32CE8E68600A026C0 /* decomp_AC130_cln1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC7F58F22CE8E68600A026C0 /* decomp_AC130_cln1.pdf */; };
+		FC7F58F72CEA1A4000A026C0 /* aa1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC7F58F62CEA1A4000A026C0 /* aa1.pdf */; };
+		FC7F58F92CEA1ACA00A026C0 /* aa1b.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC7F58F82CEA1ACA00A026C0 /* aa1b.pdf */; };
+		FC7F58FC2CEA1B1400A026C0 /* aa1d.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC7F58FA2CEA1B1400A026C0 /* aa1d.pdf */; };
+		FC7F58FD2CEA1B1400A026C0 /* aa1c.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC7F58FB2CEA1B1400A026C0 /* aa1c.pdf */; };
+		FC7F58FF2CEA213E00A026C0 /* aa1d_dec.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC7F58FE2CEA213E00A026C0 /* aa1d_dec.pdf */; };
+		FC7F59012CEA24AC00A026C0 /* aa1d_is.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC7F59002CEA24AC00A026C0 /* aa1d_is.pdf */; };
+		FC7F59032CEA283200A026C0 /* tri1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC7F59022CEA283200A026C0 /* tri1.pdf */; };
+		FC7F59072CEA2A1C00A026C0 /* tri2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC7F59062CEA2A1C00A026C0 /* tri2.pdf */; };
+		FC7F590A2CEA2DD600A026C0 /* tri_f.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC7F59082CEA2DD600A026C0 /* tri_f.pdf */; };
+		FC7F590B2CEA2DD600A026C0 /* tri_s.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC7F59092CEA2DD600A026C0 /* tri_s.pdf */; };
+		FC7F590D2CEA36CF00A026C0 /* uC130.svg in Resources */ = {isa = PBXBuildFile; fileRef = FC7F590C2CEA36CF00A026C0 /* uC130.svg */; };
+		FC7F59152CECCA3B00A026C0 /* AC130_cln2pdf24.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC7F59142CECCA3A00A026C0 /* AC130_cln2pdf24.pdf */; };
+		FC7F59172CECCA7100A026C0 /* AC130_cln2fv.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC7F59162CECCA7100A026C0 /* AC130_cln2fv.pdf */; };
+		FC7F59192CECCB5E00A026C0 /* AC130_ry.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC7F59182CECCB5E00A026C0 /* AC130_ry.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,15 +62,43 @@
 		FC6BD48B2CE6443500A71251 /* PDFPathExtract.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PDFPathExtract.entitlements; sourceTree = "<group>"; };
 		FC6BD4912CE6448100A71251 /* Extractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Extractor.h; sourceTree = "<group>"; };
 		FC6BD4922CE6448100A71251 /* Extractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Extractor.m; sourceTree = "<group>"; };
-		FC6BD4942CE6470200A71251 /* AW109_orig.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AW109_orig.pdf; sourceTree = "<group>"; };
+		FC6BD4942CE6470200A71251 /* user_AW109.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = user_AW109.pdf; sourceTree = "<group>"; };
 		FC6BD4962CE647E300A71251 /* AW109_fixed.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AW109_fixed.pdf; sourceTree = "<group>"; };
 		FC6BD4A02CE651A800A71251 /* CheckerBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckerBoardView.m; sourceTree = "<group>"; };
 		FC6BD4A12CE651A800A71251 /* CheckerBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckerBoardView.h; sourceTree = "<group>"; };
-		FC6BD4A32CE65DC600A71251 /* AC130_orig.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AC130_orig.pdf; sourceTree = "<group>"; };
-		FC7F58A32CE6C64900A026C0 /* airDoc3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = airDoc3.pdf; sourceTree = "<group>"; };
+		FC6BD4A32CE65DC600A71251 /* notuser_AC130.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = notuser_AC130.pdf; sourceTree = "<group>"; };
+		FC7F58A32CE6C64900A026C0 /* oairDoc3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = oairDoc3.pdf; sourceTree = "<group>"; };
 		FC7F58A42CE6C64900A026C0 /* AC130decompressed.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AC130decompressed.pdf; sourceTree = "<group>"; };
 		FC7F58A52CE6C64A00A026C0 /* AW109red.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AW109red.pdf; sourceTree = "<group>"; };
-		FC7F58B92CE6CF5B00A026C0 /* AC130_fixed.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AC130_fixed.pdf; sourceTree = "<group>"; };
+		FC7F58B92CE6CF5B00A026C0 /* DM_AC130.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = DM_AC130.pdf; sourceTree = "<group>"; };
+		FC7F58BB2CE6D46600A026C0 /* airDoc3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = airDoc3.pdf; sourceTree = "<group>"; };
+		FC7F58BD2CE6D4A900A026C0 /* AW109_recompressed.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AW109_recompressed.pdf; sourceTree = "<group>"; };
+		FC7F58BF2CE773FE00A026C0 /* ParseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParseVC.h; sourceTree = "<group>"; };
+		FC7F58C02CE773FE00A026C0 /* ParseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParseVC.m; sourceTree = "<group>"; };
+		FC7F58C22CE7851900A026C0 /* user_AC130.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = user_AC130.pdf; sourceTree = "<group>"; };
+		FC7F58DA2CE79E6D00A026C0 /* DM_AW109.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = DM_AW109.pdf; sourceTree = "<group>"; };
+		FC7F58DC2CE79EFC00A026C0 /* AW109_sp.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AW109_sp.pdf; sourceTree = "<group>"; };
+		FC7F58E42CE7A21E00A026C0 /* AW109_sp3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AW109_sp3.pdf; sourceTree = "<group>"; };
+		FC7F58E82CE7F5A900A026C0 /* DM_1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = DM_1.pdf; sourceTree = "<group>"; };
+		FC7F58EA2CE7FB0200A026C0 /* DM_2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = DM_2.pdf; sourceTree = "<group>"; };
+		FC7F58EC2CE7FE5A00A026C0 /* is_1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = is_1.pdf; sourceTree = "<group>"; };
+		FC7F58EE2CE8E0F900A026C0 /* AC130_cln1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AC130_cln1.pdf; sourceTree = "<group>"; };
+		FC7F58F02CE8E17100A026C0 /* AC130_cln2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AC130_cln2.pdf; sourceTree = "<group>"; };
+		FC7F58F22CE8E68600A026C0 /* decomp_AC130_cln1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = decomp_AC130_cln1.pdf; sourceTree = "<group>"; };
+		FC7F58F62CEA1A4000A026C0 /* aa1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = aa1.pdf; sourceTree = "<group>"; };
+		FC7F58F82CEA1ACA00A026C0 /* aa1b.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = aa1b.pdf; sourceTree = "<group>"; };
+		FC7F58FA2CEA1B1400A026C0 /* aa1d.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = aa1d.pdf; sourceTree = "<group>"; };
+		FC7F58FB2CEA1B1400A026C0 /* aa1c.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = aa1c.pdf; sourceTree = "<group>"; };
+		FC7F58FE2CEA213E00A026C0 /* aa1d_dec.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = aa1d_dec.pdf; sourceTree = "<group>"; };
+		FC7F59002CEA24AC00A026C0 /* aa1d_is.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = aa1d_is.pdf; sourceTree = "<group>"; };
+		FC7F59022CEA283200A026C0 /* tri1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = tri1.pdf; sourceTree = "<group>"; };
+		FC7F59062CEA2A1C00A026C0 /* tri2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = tri2.pdf; sourceTree = "<group>"; };
+		FC7F59082CEA2DD600A026C0 /* tri_f.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = tri_f.pdf; sourceTree = "<group>"; };
+		FC7F59092CEA2DD600A026C0 /* tri_s.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = tri_s.pdf; sourceTree = "<group>"; };
+		FC7F590C2CEA36CF00A026C0 /* uC130.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = uC130.svg; sourceTree = "<group>"; };
+		FC7F59142CECCA3A00A026C0 /* AC130_cln2pdf24.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AC130_cln2pdf24.pdf; sourceTree = "<group>"; };
+		FC7F59162CECCA7100A026C0 /* AC130_cln2fv.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AC130_cln2fv.pdf; sourceTree = "<group>"; };
+		FC7F59182CECCB5E00A026C0 /* AC130_ry.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AC130_ry.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,17 +139,45 @@
 				FC6BD4922CE6448100A71251 /* Extractor.m */,
 				FC6BD4A12CE651A800A71251 /* CheckerBoardView.h */,
 				FC6BD4A02CE651A800A71251 /* CheckerBoardView.m */,
+				FC7F58BF2CE773FE00A026C0 /* ParseVC.h */,
+				FC7F58C02CE773FE00A026C0 /* ParseVC.m */,
 				FC6BD4842CE6443500A71251 /* Assets.xcassets */,
 				FC6BD4862CE6443500A71251 /* Main.storyboard */,
 				FC6BD4892CE6443500A71251 /* main.m */,
 				FC6BD48B2CE6443500A71251 /* PDFPathExtract.entitlements */,
-				FC6BD4942CE6470200A71251 /* AW109_orig.pdf */,
+				FC6BD4942CE6470200A71251 /* user_AW109.pdf */,
 				FC6BD4962CE647E300A71251 /* AW109_fixed.pdf */,
 				FC7F58A52CE6C64A00A026C0 /* AW109red.pdf */,
-				FC6BD4A32CE65DC600A71251 /* AC130_orig.pdf */,
-				FC7F58B92CE6CF5B00A026C0 /* AC130_fixed.pdf */,
+				FC6BD4A32CE65DC600A71251 /* notuser_AC130.pdf */,
+				FC7F58B92CE6CF5B00A026C0 /* DM_AC130.pdf */,
 				FC7F58A42CE6C64900A026C0 /* AC130decompressed.pdf */,
-				FC7F58A32CE6C64900A026C0 /* airDoc3.pdf */,
+				FC7F58A32CE6C64900A026C0 /* oairDoc3.pdf */,
+				FC7F58BB2CE6D46600A026C0 /* airDoc3.pdf */,
+				FC7F58BD2CE6D4A900A026C0 /* AW109_recompressed.pdf */,
+				FC7F58C22CE7851900A026C0 /* user_AC130.pdf */,
+				FC7F58DA2CE79E6D00A026C0 /* DM_AW109.pdf */,
+				FC7F58DC2CE79EFC00A026C0 /* AW109_sp.pdf */,
+				FC7F58E42CE7A21E00A026C0 /* AW109_sp3.pdf */,
+				FC7F58E82CE7F5A900A026C0 /* DM_1.pdf */,
+				FC7F58EA2CE7FB0200A026C0 /* DM_2.pdf */,
+				FC7F58EC2CE7FE5A00A026C0 /* is_1.pdf */,
+				FC7F58EE2CE8E0F900A026C0 /* AC130_cln1.pdf */,
+				FC7F58F02CE8E17100A026C0 /* AC130_cln2.pdf */,
+				FC7F58F22CE8E68600A026C0 /* decomp_AC130_cln1.pdf */,
+				FC7F58F62CEA1A4000A026C0 /* aa1.pdf */,
+				FC7F58F82CEA1ACA00A026C0 /* aa1b.pdf */,
+				FC7F58FB2CEA1B1400A026C0 /* aa1c.pdf */,
+				FC7F58FA2CEA1B1400A026C0 /* aa1d.pdf */,
+				FC7F58FE2CEA213E00A026C0 /* aa1d_dec.pdf */,
+				FC7F59002CEA24AC00A026C0 /* aa1d_is.pdf */,
+				FC7F59022CEA283200A026C0 /* tri1.pdf */,
+				FC7F59062CEA2A1C00A026C0 /* tri2.pdf */,
+				FC7F59082CEA2DD600A026C0 /* tri_f.pdf */,
+				FC7F59092CEA2DD600A026C0 /* tri_s.pdf */,
+				FC7F59182CECCB5E00A026C0 /* AC130_ry.pdf */,
+				FC7F590C2CEA36CF00A026C0 /* uC130.svg */,
+				FC7F59142CECCA3A00A026C0 /* AC130_cln2pdf24.pdf */,
+				FC7F59162CECCA7100A026C0 /* AC130_cln2fv.pdf */,
 			);
 			path = PDFPathExtract;
 			sourceTree = "<group>";
@@ -156,15 +239,41 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC7F58A62CE6C64A00A026C0 /* airDoc3.pdf in Resources */,
+				FC7F58BC2CE6D46600A026C0 /* airDoc3.pdf in Resources */,
+				FC7F59152CECCA3B00A026C0 /* AC130_cln2pdf24.pdf in Resources */,
+				FC7F59192CECCB5E00A026C0 /* AC130_ry.pdf in Resources */,
+				FC7F58A62CE6C64A00A026C0 /* oairDoc3.pdf in Resources */,
+				FC7F58C32CE7851900A026C0 /* user_AC130.pdf in Resources */,
 				FC7F58A82CE6C64A00A026C0 /* AW109red.pdf in Resources */,
+				FC7F58F72CEA1A4000A026C0 /* aa1.pdf in Resources */,
+				FC7F58F92CEA1ACA00A026C0 /* aa1b.pdf in Resources */,
 				FC6BD4972CE647E300A71251 /* AW109_fixed.pdf in Resources */,
-				FC6BD4A42CE65DC600A71251 /* AC130_orig.pdf in Resources */,
-				FC7F58BA2CE6CF5B00A026C0 /* AC130_fixed.pdf in Resources */,
+				FC7F58EB2CE7FB0200A026C0 /* DM_2.pdf in Resources */,
+				FC6BD4A42CE65DC600A71251 /* notuser_AC130.pdf in Resources */,
+				FC7F58FD2CEA1B1400A026C0 /* aa1c.pdf in Resources */,
+				FC7F58BA2CE6CF5B00A026C0 /* DM_AC130.pdf in Resources */,
+				FC7F59032CEA283200A026C0 /* tri1.pdf in Resources */,
+				FC7F58ED2CE7FE5A00A026C0 /* is_1.pdf in Resources */,
 				FC7F58A72CE6C64A00A026C0 /* AC130decompressed.pdf in Resources */,
-				FC6BD4952CE6470300A71251 /* AW109_orig.pdf in Resources */,
+				FC7F58E92CE7F5A900A026C0 /* DM_1.pdf in Resources */,
+				FC7F59172CECCA7100A026C0 /* AC130_cln2fv.pdf in Resources */,
+				FC7F590D2CEA36CF00A026C0 /* uC130.svg in Resources */,
+				FC7F58FF2CEA213E00A026C0 /* aa1d_dec.pdf in Resources */,
+				FC7F58FC2CEA1B1400A026C0 /* aa1d.pdf in Resources */,
+				FC7F590B2CEA2DD600A026C0 /* tri_s.pdf in Resources */,
+				FC7F58F12CE8E17100A026C0 /* AC130_cln2.pdf in Resources */,
+				FC7F58DD2CE79EFD00A026C0 /* AW109_sp.pdf in Resources */,
+				FC6BD4952CE6470300A71251 /* user_AW109.pdf in Resources */,
+				FC7F58BE2CE6D4A900A026C0 /* AW109_recompressed.pdf in Resources */,
+				FC7F58EF2CE8E0F900A026C0 /* AC130_cln1.pdf in Resources */,
+				FC7F590A2CEA2DD600A026C0 /* tri_f.pdf in Resources */,
+				FC7F58E52CE7A21E00A026C0 /* AW109_sp3.pdf in Resources */,
 				FC6BD4852CE6443500A71251 /* Assets.xcassets in Resources */,
+				FC7F58F32CE8E68600A026C0 /* decomp_AC130_cln1.pdf in Resources */,
+				FC7F59012CEA24AC00A026C0 /* aa1d_is.pdf in Resources */,
 				FC6BD4882CE6443500A71251 /* Main.storyboard in Resources */,
+				FC7F58DB2CE79E6D00A026C0 /* DM_AW109.pdf in Resources */,
+				FC7F59072CEA2A1C00A026C0 /* tri2.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC7F58C12CE773FE00A026C0 /* ParseVC.m in Sources */,
 				FC6BD4832CE6443400A71251 /* ViewController.m in Sources */,
 				FC6BD4A22CE651A900A71251 /* CheckerBoardView.m in Sources */,
 				FC6BD48A2CE6443500A71251 /* main.m in Sources */,
